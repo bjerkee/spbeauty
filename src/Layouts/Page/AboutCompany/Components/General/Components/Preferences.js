@@ -4,7 +4,7 @@ import PrimaryButton from "../../../../../../Components/PrimaryButton";
 function Preferences() {
     return (
         <div className='d-inline-flex flex-column gap-4 mt-5'>
-            <div className='d-inline-flex flex-column gap-3'>
+            <div className='d-inline-flex flex-column gap-3 caption'>
                 <TitledTextInput title='Название компании' def='SPBEAUTY'/>
                 <TitledSelector title='Тип организации' options={[
                     'Салон красоты',

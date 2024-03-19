@@ -4,6 +4,7 @@ import ArrowBackIcon from "../../Icons/ArrowBackIcon";
 import styled from 'styled-components';
 
 const Container = styled.div`
+    width:237px;
     background-color: #F8FAFC;
     color: #64748B;
     height: 100vh;
